@@ -1,0 +1,18 @@
+project:
+  type: website
+ # resources: "*.png"
+
+
+website:
+  title: "today"
+  open-graph: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - posts/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
